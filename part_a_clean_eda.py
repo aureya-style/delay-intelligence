@@ -62,7 +62,7 @@ feat["distance_band"] = pd.cut(
     feat["distance_km"],
     bins=[0, 200, 400, 600, 2000],
     labels=["0-200", "201-400", "401-600", "601+"],
-)   # right edge inclusive is the default
+)
 
 rows = []
 for dim in ["service_type", "hub_tier", "distance_band"]:
